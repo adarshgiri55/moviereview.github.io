@@ -1,0 +1,78 @@
+
+table{
+  border-collapse: collapse;
+  margin: 20px;
+}
+tr{
+  margin: 10px;
+}
+td{
+  padding: 10px;
+}
+input,label,button{
+  margin:10px;
+}
+button{
+  background-color: skyblue;
+  margin: 10px;
+}
+
+@media only screen and (min-width: 601px) {
+    /* For mobile phones: */
+    #demo,.header-content{
+      margin-left: 300px;
+      margin-right: 400px;
+    }
+
+    H1{
+      margin-top:50pxpx;
+      margin-left: 300px;
+  }
+  .cards{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin-left:300px ;
+  margin-right: 400px;
+  justify-content: space-between;
+}
+.card-text{
+  padding: 5%;
+}
+.temp{
+  margin-left: 270px;
+}
+.table{
+  margin-left: 270px;
+  margin-top: 20px;
+}
+}
+  @media only screen and (max-width: 600px) {
+    
+    H1{
+      margin-top:40px;
+      margin-left: 5%;
+  }
+  #demo,.header-content{
+    margin: 5%;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left:5% ;
+    margin-right: 5%;
+    
+  }
+  .cards >div{
+    margin: 5%;
+    }
+    .temp{
+      margin-left: 3%;
+    }
+    .card{
+      width: fit-content;
+    }
+  }
+  
+  
